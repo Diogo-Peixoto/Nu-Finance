@@ -1,0 +1,52 @@
+.main_homePage {
+  margin-top: 39px;
+}
+
+.main_homePage-box {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.main_homePage-box section:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.NoCards h1 {
+  margin-bottom: 30px;
+  animation: render 1.3s;
+}
+
+.NoCards img {
+  width: 56vw;
+  max-width: 562px;
+  animation: render 1.5s;
+}
+
+.main_homePage-box section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 774px) {
+  .main_homePage-box {
+    flex-wrap: wrap;
+  }
+
+  .NoCards img {
+    display: none;
+  }
+}
+
+@media (max-width: 544px) {
+  .main_homePage-box {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+}

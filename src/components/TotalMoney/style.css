@@ -1,0 +1,31 @@
+.amount__box {
+  width: 100%;
+  max-width: 363px;
+  height: 96px;
+
+  border: var(--grey-2) solid 1px;
+  border-radius: 4px;
+  padding: 0px 26px;
+
+  display: flex;
+  align-items: center;
+
+  animation: render 1.2s;
+}
+
+.amount__box div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.amount__box h2 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.amount__box h2 span {
+  color: var(--color-primary);
+}

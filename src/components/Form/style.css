@@ -1,0 +1,98 @@
+.main_homePage-box form {
+  padding: 38px 26px;
+  border: var(--grey-2) solid 1px;
+  border-radius: 4px;
+
+  width: 363px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.main_homePage-box form input {
+  height: 48px;
+  padding-left: 16px;
+  background-color: var(--grey-1);
+  border-radius: 8px;
+}
+
+.example {
+  color: var(--grey-3);
+}
+
+.main_homePage-box form div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 12px 4px;
+}
+
+.form_box-value {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form_box-value--input div {
+  background-color: var(--grey-1);
+  box-sizing: border-box;
+
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.form_box-value--input input {
+  width: 70%;
+  height: 48px;
+  padding-left: 16px;
+}
+
+.form_box-value--select {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 128px;
+}
+
+.form_box-value--select div {
+  height: 48px;
+  background-color: var(--grey-1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 128px;
+}
+
+.form_box-value--select select {
+  background-color: var(--grey-1);
+  color: var(--grey-3);
+}
+
+.main_homePage-box form button {
+  height: 48px;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+@media (max-width: 763px) {
+  .main_homePage-box form {
+    width: 100%;
+    max-width: 363px;
+  }
+
+  .form_box-value--input div {
+    width: 100%;
+    max-width: 128px;
+    min-width: 77px;
+  }
+}

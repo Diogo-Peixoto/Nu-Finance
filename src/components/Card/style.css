@@ -1,0 +1,38 @@
+li {
+  width: 100%;
+  background-color: var(--grey-1);
+  border-radius: 4px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  animation: renderLi 1s;
+}
+
+li p {
+  color: var(--grey-4);
+}
+
+li div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+li div + div {
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
+}
+
+li figure {
+  height: 22px;
+  width: 22px;
+  border-radius: 2.46px;
+  background-color: var(--grey-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

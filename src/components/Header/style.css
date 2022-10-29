@@ -1,0 +1,29 @@
+header {
+  box-shadow: 0px 4px 32px -12px #00000025;
+}
+
+.header {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 88px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header button {
+  width: 64px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--grey-2);
+
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header button:hover {
+  background-color: var(--color-primary);
+  color: white;
+}

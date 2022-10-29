@@ -1,0 +1,105 @@
+body,
+div,
+ul,
+li,
+header,
+main,
+nav,
+div,
+section,
+figure,
+figcaption,
+img,
+input,
+button,
+form,
+label,
+p,
+a,
+select,
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+:root {
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+
+  --grey-1: #f8f9fa;
+  --grey-2: #e9ecef;
+  --grey-3: #868e96;
+  --grey-4: #212529;
+}
+
+.title1 {
+  font-style: bold;
+  font-size: 2.375rem;
+  line-height: 3rem;
+  line-height: 140%;
+}
+
+.title2 {
+  font-style: bold;
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+  line-height: 93%;
+}
+
+.title3 {
+  font-style: bold;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  line-height: 93%;
+}
+
+.title3 {
+  font-style: bold;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  line-height: 93%;
+}
+
+.headline {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  line-height: 93%;
+  font-weight: 400;
+}
+
+.body {
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+  line-height: 93%;
+}
+
+@keyframes render {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes renderLi {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
