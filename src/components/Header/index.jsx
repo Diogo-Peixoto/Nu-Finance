@@ -1,12 +1,11 @@
 import "./style.css";
-import logo from "../../assets/NuKenzieBlack.png";
 
 function Header({ setPage }) {
   return (
     <header>
       <div className="header">
         <figure>
-          <img src={logo} alt="Logo Kenzie" />
+          <h1><span>Nu</span> Finance</h1>
         </figure>
         <button onClick={() => setPage(false)}>Inicio</button>
       </div>

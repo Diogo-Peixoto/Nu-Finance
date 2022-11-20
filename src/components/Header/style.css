@@ -27,3 +27,7 @@ header {
   background-color: var(--color-primary);
   color: white;
 }
+
+span{
+  color: var(--color-primary);
+}

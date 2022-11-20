@@ -44,7 +44,7 @@ function Form({ setListTransactions }) {
               required
               value={value}
               onChange={(event) => setValue(event.target.value)}
-              type="text"
+              type="number"
               placeholder="0.00"
             />
             <span>R$</span>

@@ -1,5 +1,5 @@
 import "./style.css";
-import logo from "../../assets/NuKenzieWhite.svg";
+
 import illustrationLandinPage from "../../assets/illustration.svg";
 
 function LandingPage({ setPage }) {
@@ -7,7 +7,7 @@ function LandingPage({ setPage }) {
     <main className="landin-Page">
       <section>
         <figure>
-          <img src={logo} alt="" />
+          <h2><span>Nu</span> Finance</h2>
         </figure>
         <h1 className="title1">Centralize o controle das suas finanças</h1>
         <p className="headline">de forma rápida e segura</p>
