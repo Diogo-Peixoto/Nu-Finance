@@ -1,4 +1,4 @@
-# Nu Kenzie
+# Nu Finance
 <p>O objetivo desse projeto foi criar um site onde o usuário poderá organizar suas finanças de acordo com suas entradas e saídas de dinheiro.<p/><br>
 
 ## 🚀 Tecnologias Usadas
@@ -17,7 +17,7 @@
 <p>✔ Mobile first</p>
 
 ## 💻 Link da página
-https://nu-kenzie-two-theta.vercel.app/
+https://nu-finance.vercel.app/
 
 <a href="mailto:diogosoarespeixoto41@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/diogo-soares-peixoto"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
