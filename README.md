@@ -1,9 +1,6 @@
 # Nu Finance
 <p>O objetivo desse projeto foi criar um site onde o usuário poderá organizar suas finanças de acordo com suas entradas e saídas de dinheiro.<p/><br>
 
-## 💻 Link da página
-https://nu-finance.vercel.app/
-
 ## 🚀 Tecnologias Usadas
 <div>
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 
@@ -18,6 +15,9 @@ https://nu-finance.vercel.app/
 <p>✔ Filtrar entradas e saídas</p>
 <p>✔ Excluir entradas e saídas</p>
 <p>✔ Mobile first</p>
+
+## 💻 Link da página
+https://nu-finance.vercel.app/
 
 
 <a href="mailto:diogosoarespeixoto41@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
